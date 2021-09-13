@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+.background{
+	width:100%;
+	height:auto;
+	margin:auto;
+}
+.top{
+	width:100%;
+	height:110px;
+	background:#f2ebd8;
+	margin:auto;
+}
+.top1{
+	width:1300px;
+	height:110px;
+	background:#f2ebd8;
+	margin:auto;
+}
+.logo{
+	width:100px;
+	height:100px;
+	float:left;
+}	
+.menu
+{
+width:1300px;
+height:110px;
+color:#000;
+background-color:#f2ebd8;
+font-family:font body;
+
+}
+.menu ul
+{list-style:none;
+margin: 0px;
+pading: 0px;
+}
+.menu ul li
+{
+float:right;
+padding:20px;
+box-sizing:border-box;
+position:relative;
+}
+.menu ul li a
+{text-decoration:none;
+color: #000;
+}
+.menu ul li:hover
+{border:1px #FFFFFF solid;
+}
+
+.menu ul li:hover a
+{color:#c8985a;
+}
+.menu ul li ul{
+	position:absolute;
+	right:10px;
+	top:70px;
+	visibility:hidden;
+}
+.menu ul li ul li{
+	width:250px;
+ 	background-color:#f2ebd8;
+}
+.menu ul li:hover ul{
+	visibility:visible;
+}
+.page{
+	width:1300px;
+	margin:auto;
+	height:2500px;
+	}
+
+.menu1{
+	width:1300px;
+	height:170px;
+	padding:20px; 
+	box-sizing:border-box;
+	float:left;	
+	font-family:font body;
+	
+}
+.sanpham{
+	width:300px;
+	height:auto;
+	margin:60px;
+	float:left;
+	position:relative;
+	font-family:font body;
+}
+
+.masanpham
+{
+	width: 196px;
+	height: 39px;
+	margin: 0px;
+	padding-top: 5px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	background-color: #f2ebd8;
+	position: absolute;
+	top: 323px;
+	right: 86px;
+	font-family:font body;
+}
+button{
+	width:150px;
+	height:50px;
+	margin::10px;
+	border:none;
+	background-color: #f2ebd8;
+	color:#c8985a;
+	box-sizing:border-box;
+	border-radius:20px;
+}
+button:hover{
+	background-color:#c8985a;
+	color:#f2ebd8;
+}
+
+.page123{
+	width:100%;
+	height:500px;
+	margin:auto;
+	background-color:#f2ebd8;
+}
+.page12{
+	width:1300px;
+	height:500px;
+	margin:auto;
+	background-color:#f2ebd8;
+}
+.chu12{
+	width:1000px;
+	height:500px;
+	padding:30px 20px;
+	box-sizing:border-box;
+	color:#000;
+	float:left;
+	background-color: #f2ebd8;
+	color:#c8985a;
+	font-family:font body;
+}
+.logo2{
+	width:300px;
+	height:500px;	
+	float:left;
+	background-color:#f2ebd8;
+}
+.chu123{
+	width:400px;
+	height:350px;
+	color:#000;
+	float:left;
+	color:#c8985a;
+	padding:20px;
+	margin:10px;
+	font-family:font body;
+}
+@font-face{
+	font-family:font body;
+	src:url(../font/UTM%20Aptima.ttf);
+	font-size:10px;
+} 
